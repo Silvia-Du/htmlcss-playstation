@@ -17,6 +17,23 @@
 
 /* MAIN */
 
+/* nuove uscite */
+
+.sd-nuove-uscite{
+  background-color: #1f1f1f;
+  color: white;
+}
+
+.sd-nuove-uscite .container .row img{
+  width: 100%;
+  border-radius: 15px;
+}
+
+.sd-nuove-uscite .container .row .sd-col{
+  margin-bottom: 50px;
+}
+
+
 
 /* esplora ps-4 */
 .sd-esplora-ps-4 .container .row img{
