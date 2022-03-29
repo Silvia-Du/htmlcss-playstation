@@ -17,6 +17,28 @@
 
 /* MAIN */
 
+
+/* PS-5 */
+
+.sd-ps5 .container .sd-blue-text{
+  color: #1a80d3;
+  text-transform: uppercase;
+}
+
+.sd-ps5 .container .row .sd-col-little{
+  margin: 15px 0;
+}
+
+.sd-ps5 .container .row .sd-col-big img{
+  width: 100%;
+}
+
+.sd-ps5 .container .row .sd-col-little img{
+  width: 100%;
+  opacity: 0.8;
+  margin-bottom: 10px;
+}
+
 /* in evidence game */
 
 .sd-evidence-game{
