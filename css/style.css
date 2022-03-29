@@ -3,11 +3,25 @@
 .sd-nav .top{
   height: 30px;
   background-color: black;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .sd-nav .bottom{
   height: 70px;
+  background-color: white;
 }
+
+.sd-nav .top .logo-sony{
+  width: 60px;
+}
+
+.sd-nav .top .logo-sony img{
+  width: 60px;
+  filter: invert(1);
+}
+
 
 
 /* JUMBOTRON */
@@ -54,7 +68,7 @@
 }
 
 .sd-ps5 .container .row .sd-col-big img{
-  width: 100%;
+  width: 98%;
 }
 
 .sd-ps5 .container .row .sd-col-little img{
