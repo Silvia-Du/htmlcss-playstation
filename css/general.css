@@ -18,11 +18,25 @@
 /* MAIN */
 
 
+/* game-card-xjumbo */
+
+.sd-game-card-xjumbo .container .sd-col{
+  margin-bottom: 20px;
+}
+
+.sd-game-card-xjumbo .container .sd-col img{
+  width: 100%;
+  border-radius: 15px;
+}
+
+
+
 /* PS-5 */
 
 .sd-ps5 .container .sd-blue-text{
   color: #1a80d3;
   text-transform: uppercase;
+  margin: 0;
 }
 
 .sd-ps5 .container .row .sd-col-little{
