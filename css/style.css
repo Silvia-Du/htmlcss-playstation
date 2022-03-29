@@ -136,3 +136,39 @@ footer{
   background-color: #00439c;
   color: white;
 }
+
+footer .container .row .sd-logo-container img{
+  width: 100px;
+}
+footer .container .row .sd-logo-container::after{
+  content: '\000AE';
+  color: white;
+  font-size: 0.8rem;
+  position: absolute;
+  bottom:11px;
+  left: 68px;
+}
+
+footer .container .row .text-group img{
+  width: 20px;
+  margin-right: 10px;
+}
+
+footer .container .row .text-group span{
+  font-weight: 600;
+}
+
+.sd-ul li{
+  list-style: none;
+}
+
+.sd-ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+
+footer .container .row .sd-logosie-container img{
+  width: 110px;
+  margin-right: 10px;
+}
