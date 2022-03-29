@@ -11,7 +11,11 @@
   min-height: 100px;
 }
 
-
+._col-debug{
+  min-height: 100px;
+  background-color: rgba(240, 138, 138, 0.466);
+  border: 1px solid black;
+}
 
 
 
