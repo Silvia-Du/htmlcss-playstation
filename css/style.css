@@ -3,9 +3,6 @@
 .sd-nav .top{
   height: 30px;
   background-color: black;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
 }
 
 .sd-nav .bottom{
@@ -15,6 +12,8 @@
 
 .sd-nav .top .logo-sony{
   width: 60px;
+  position: absolute;
+  right: 5px;
 }
 
 .sd-nav .top .logo-sony img{
