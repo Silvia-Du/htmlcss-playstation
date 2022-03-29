@@ -17,6 +17,21 @@
 
 /* MAIN */
 
+/* in evidence game */
+
+.sd-evidence-game{
+  height: 100vh;
+  color: white;
+  background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.sd-evidence-game .container .row .sd-logo{
+  width: 70%;
+}
+
+
 /* nuove uscite */
 
 .sd-nuove-uscite{
