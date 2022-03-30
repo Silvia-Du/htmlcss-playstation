@@ -119,6 +119,19 @@
   width: 100%;
 }
 
+.sd-esplora-ps-4 .container .sd-h2{
+  display: inline-block;
+}
+
+.sd-esplora-ps-4 .container .sd-h2::after{
+  content: '\000AE';
+  color: #232323;
+  font-size: 1.15rem;
+  position: absolute;
+  bottom:12px;
+  right: 20px;
+}
+
 
 /* playst-plus */
 
