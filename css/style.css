@@ -101,10 +101,15 @@
 .sd-nuove-uscite .container .row img{
   width: 100%;
   border-radius: 15px;
+  margin-bottom: 10px;
 }
 
 .sd-nuove-uscite .container .row .sd-col{
   margin-bottom: 50px;
+}
+
+.sd-nuove-uscite .container .row .sd-col p{
+  font-size: 1rem;
 }
 
 
@@ -132,9 +137,6 @@
 .sd-playst-plus .container .row .sd-container .sd-img-big{
   width: 130%;
 }
-
-
-
 
 /* sconti store */
 
