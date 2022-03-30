@@ -22,8 +22,6 @@
 }
 
 .sd-btn-base{
-  border-radius: 27px;
-  padding: 6px 14px;
   font-size: 1.1rem;
 }
 
@@ -31,6 +29,7 @@
   background-color: white;
   border-color: white;
   font-weight: 500;
+  font-size: 1.1rem;
 }
 
 .sd-btn-gray{
@@ -38,10 +37,12 @@
   border-color: #d9dadc;
   font-weight: 600;
   color: #3167e5;
+  font-size: 1.1rem;
 }
 
 .sd-btn-blue{
   background-color: #2d64e6;
+  font-size: 1.1rem;
 }
 
 .sd-btn-orange{
@@ -55,6 +56,11 @@
 
 .sd-subtitle{
   color: #7a7a7a;
+  font-size: 1.25rem;
+}
+
+.sd-subtitle-w{
+  color: white;
   font-size: 1.25rem;
 }
 
@@ -79,7 +85,7 @@
 
 .sd-btn-orange:hover{
   background-color: #cd3d0f;
-  border-color: #cd3d0f;
+  border-style: double;
   opacity: 0.8;
 }
 
@@ -93,6 +99,6 @@
 }
 
 @keyframes slide-top {
-
+  0% {top: 0px;}
   100% {top: 20px;}
 }
