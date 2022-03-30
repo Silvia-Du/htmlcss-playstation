@@ -23,7 +23,7 @@
 
 .sd-btn-base{
   border-radius: 30px;
-  padding: 7px 12px;
+  padding: 7px 14px;
   font-size: 1.1rem;
   
 }
@@ -32,6 +32,13 @@
   background-color: white;
   border-color: white;
   font-weight: 500;
+}
+
+.sd-btn-gray{
+  background-color: #d9dadc;
+  border-color: #d9dadc;
+  font-weight: 600;
+  color: #3167e5;
 }
 
 .sd-subtitle{
@@ -50,3 +57,10 @@
 
 
 /* HOVER & ACTIVE RULES */
+
+
+.sd-btn-gray:hover{
+  color: #5b87ec;
+  background-color: #d9dadc;
+  border-color: #d5d6d8;
+}

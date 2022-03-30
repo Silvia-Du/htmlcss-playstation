@@ -121,6 +121,20 @@
   background-color: #bebcbb;
 }
 
+.sd-playst-plus .container .row .sd-container .logo{
+  width: 60%;
+}
+
+.sd-playst-plus .container .row .sd-container .logo img{
+  width: 100%;
+}
+
+.sd-playst-plus .container .row .sd-container .sd-img-big{
+  width: 130%;
+}
+
+
+
 
 /* sconti store */
 
@@ -194,4 +208,13 @@ footer .container .row .text-group span{
 footer .container .row .sd-logosie-container img{
   width: 110px;
   margin-right: 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+
+  .sd-playst-plus .container .sd-container .sd-img-big{
+    display: none;
+  }
+  
 }
