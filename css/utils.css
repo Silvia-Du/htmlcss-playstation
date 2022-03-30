@@ -82,3 +82,17 @@
   border-color: #cd3d0f;
   opacity: 0.8;
 }
+
+.sd-btn-blue:hover{
+  opacity: 0.8;
+}
+
+.sd-game-card-xjumbo .container .row .sd-col img:hover{
+  animation-name: slide-top;
+  animation-duration: 2s;
+}
+
+@keyframes slide-top {
+
+  100% {top: 20px;}
+}

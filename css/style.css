@@ -59,11 +59,14 @@
 .sd-ps5 .container .sd-blue-text{
   color: #1a80d3;
   text-transform: uppercase;
-  margin: 0;
+  margin-bottom: -5px;
+  font-size: 0.95rem;
+  font-weight: 600;
 }
 
 .sd-ps5 .container .row .sd-col-little{
   margin: 15px 0;
+  opacity: 0.8;
 }
 
 .sd-ps5 .container .row .sd-col-big img{
@@ -72,9 +75,17 @@
 
 .sd-ps5 .container .row .sd-col-little img{
   width: 100%;
-  opacity: 0.8;
   margin-bottom: 10px;
 }
+
+.sd-ps5 .container .row .sd-col-little .tm-special::after{
+  content: '\02122';
+  font-size: 1rem;
+  color: rgb(61, 58, 58);
+  position: absolute;
+  bottom: -2px;
+}
+
 
 /* in evidence game */
 
@@ -239,3 +250,11 @@ footer .container .row .sd-logosie-container img{
   
 }
 
+
+@media screen and (max-width: 576px) {
+
+  .sd-ps5 .container .row.bottom p{
+    display: none;
+  }
+  
+}
