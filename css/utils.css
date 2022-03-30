@@ -95,10 +95,9 @@
 
 .sd-game-card-xjumbo .container .row .sd-col img:hover{
   transform: translatey(-20px);
-  animation-duration: 2s;
 }
 
-@keyframes slide-top {
-  0% {top: 0px;}
-  100% {top: 20px;}
+.sd-ps5 .container .row .sd-col-little:hover{
+  border-bottom: 3px solid black;
+  opacity: 1;
 }
