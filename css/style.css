@@ -21,6 +21,17 @@
   filter: invert(1);
 }
 
+.sd-nav .bottom .navbar i{
+  font-size: 1.3rem;
+}
+
+.sd-nav .bottom .navbar .sd-collapse ul li a{
+  color: black;
+}
+
+.sd-nav .bottom .navbar .sd-collapse .sd-form li{
+  list-style: none;
+}
 
 
 /* JUMBOTRON */
