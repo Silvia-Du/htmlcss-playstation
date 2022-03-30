@@ -121,12 +121,35 @@
   background-color: #bebcbb;
 }
 
+
+/* sconti store */
+
+.sconti-store .container .row .col img{
+  width: 100%;
+}
+
 /* playst-now */
 
 .sd-cta-playst-now{
   background-color: #161c3b;
   color: white;
 }
+
+.sd-cta-playst-now .container .row .left img{
+  width: 65%;
+}
+
+
+.sd-cta-playst-now .container .row .right img{
+  width: 100%;
+} 
+
+/* social */
+
+.sd-social .row .col a img{
+  width: 100%;
+}
+
 
 
 /* FOOTER */

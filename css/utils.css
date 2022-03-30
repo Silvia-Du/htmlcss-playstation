@@ -17,6 +17,36 @@
   border: 1px solid black;
 }
 
+.sd-p{
+  font-size: 1.15rem;
+}
+
+.sd-btn-base{
+  border-radius: 30px;
+  padding: 7px 12px;
+  font-size: 1.1rem;
+  
+}
+
+.sd-btn-w{
+  background-color: white;
+  border-color: white;
+  font-weight: 500;
+}
+
+.sd-subtitle{
+  color: #757575;
+  font-size: 1.25rem;
+}
+
+.sd-h2{
+  font-size: 2.35rem;
+}
+
+.sd-h3{
+  font-size: 2.15rem;
+}
+
 
 
 /* HOVER & ACTIVE RULES */
