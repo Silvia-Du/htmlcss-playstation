@@ -94,7 +94,7 @@
 }
 
 .sd-game-card-xjumbo .container .row .sd-col img:hover{
-  animation-name: slide-top;
+  transform: translatey(-20px);
   animation-duration: 2s;
 }
 
