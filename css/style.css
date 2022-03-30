@@ -97,6 +97,10 @@
   bottom: -2px;
 }
 
+.sd-ps5 .container .row .sd-col-little{
+  border-bottom: 3px solid white;
+}
+
 
 /* in evidence game */
 
