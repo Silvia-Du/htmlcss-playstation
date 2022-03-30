@@ -6,6 +6,10 @@
 
 /* HEADER */
 
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 
 .sd-nav{
   position: fixed;

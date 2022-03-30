@@ -25,7 +25,6 @@
   border-radius: 27px;
   padding: 6px 14px;
   font-size: 1.1rem;
-  
 }
 
 .sd-btn-w{
@@ -43,6 +42,15 @@
 
 .sd-btn-blue{
   background-color: #2d64e6;
+}
+
+.sd-btn-orange{
+  background-color: #cd3d0f;
+  border-color: #cd3d0f;
+  font-weight: 500;
+  font-size: 1.2rem;
+  border-radius: 28px;
+  padding: 7px 15px;
 }
 
 .sd-subtitle{
@@ -67,4 +75,10 @@
   color: #5b87ec;
   background-color: #d9dadc;
   border-color: #d5d6d8;
+}
+
+.sd-btn-orange:hover{
+  background-color: #cd3d0f;
+  border-color: #cd3d0f;
+  opacity: 0.8;
 }
