@@ -25,7 +25,34 @@
 
 /* dropdown */
 
+.sd-dropdown {
+  width: 100%;
+  display: none;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  border: 0;
+  text-align: center;
+  margin-top: 0 !important;
+}
 
+.sd-dropdown a{
+  width: 20%;
+  display: inline-block;
+}
+
+.sd-dropdown p{
+  font-weight: bold;
+}
+
+.sd-collapse li{
+  position: static;
+}
+
+.sd-item-dropdown:active .sd-dropdown{
+  display: flex;
+  margin-top: 0;
+}
 
 
 /* JUMBOTRON */
