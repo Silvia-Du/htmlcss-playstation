@@ -85,8 +85,9 @@
 
 .sd-btn-orange:hover{
   background-color: #cd3d0f;
-  border-style: double;
-  opacity: 0.8;
+  opacity: 0.9;
+  border: 1px solid rgb(29, 28, 28);
+  outline:2px solid #cd3d0f;
 }
 
 .sd-btn-blue:hover{
@@ -98,6 +99,11 @@
 }
 
 .sd-ps5 .container .row .sd-col-little:hover{
-  border-bottom: 3px solid black;
   opacity: 1;
 }
+
+.sd-ps5 .container .row .sd-col-little.active-blue{
+  border-bottom: 3px solid #3790d8;
+  opacity: 1;
+}
+
