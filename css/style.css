@@ -221,15 +221,15 @@ footer{
 }
 
 footer .container .row .sd-logo-container img{
-  width: 100px;
+  width: 110px;
 }
 footer .container .row .sd-logo-container::after{
   content: '\000AE';
   color: white;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   position: absolute;
-  bottom:11px;
-  left: 68px;
+  bottom:15px;
+  left: 83px;
 }
 
 footer .container .row .text-group img{
@@ -238,22 +238,31 @@ footer .container .row .text-group img{
 }
 
 footer .container .row .text-group span{
-  font-weight: 600;
+  font-weight: 500;
+}
+
+footer .container .row .sd-ul{
+  margin-bottom: 5px;
 }
 
 .sd-ul li{
   list-style: none;
 }
 
-.sd-ul li a{
+footer .container .row .sd-ul li a{
+  font-size: 0.9rem;
   text-decoration: none;
   color: white;
 }
 
 
 footer .container .row .sd-logosie-container img{
-  width: 110px;
+  width: 115px;
   margin-right: 10px;
+}
+
+.footer-p{
+  font-size: 0.9rem;
 }
 
 
