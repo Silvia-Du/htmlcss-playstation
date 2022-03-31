@@ -18,7 +18,7 @@
 
 .sd-nav .top .logo-sony img{
   width: 60px;
-  filter: invert(1);
+  filter: invert(0);
 }
 
 .sd-nav .bottom .navbar i{
@@ -170,16 +170,16 @@
   background-color: #bebcbb;
 }
 
-.sd-playst-plus .container .row .sd-container .logo{
+.sd-playst-plus .container .row .left .logo{
   width: 60%;
 }
 
-.sd-playst-plus .container .row .sd-container .logo img{
+.sd-playst-plus .container .row .left .logo img{
   width: 100%;
 }
 
-.sd-playst-plus .container .row .sd-container .sd-img-big{
-  width: 130%;
+.sd-playst-plus .container .row .right img{
+  height: 100%;
 }
 
 /* sconti store */
@@ -222,7 +222,10 @@ footer{
 
 footer .container .row .sd-logo-container img{
   width: 110px;
+  color: white;
 }
+
+
 footer .container .row .sd-logo-container::after{
   content: '\000AE';
   color: white;
@@ -265,6 +268,9 @@ footer .container .row .sd-logosie-container img{
   font-size: 0.9rem;
 }
 
+.footer-p a{
+  color: white;
+}
 
 @media screen and (max-width: 768px) {
 
