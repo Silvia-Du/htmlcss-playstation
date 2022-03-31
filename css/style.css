@@ -126,6 +126,10 @@
 
 .sd-nuove-uscite{
   background-color: #1f1f1f;
+}
+
+.sd-nuove-uscite .container .row .col a{
+  text-decoration: none;
   color: white;
 }
 
