@@ -1,15 +1,5 @@
 /* HEADER */
 
-.sd-nav .top{
-  height: 30px;
-  background-color: black;
-}
-
-.sd-nav .bottom{
-  height: 70px;
-  background-color: white;
-}
-
 .sd-nav .top .logo-sony{
   width: 60px;
   position: absolute;
@@ -39,18 +29,6 @@
 
 
 /* JUMBOTRON */
-
-.sd-jumbotron{
-  height: 90vh;
-  margin-top: 100px;
-  color: white;
-  background-image: url(../img/jumbo-bg.png);
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  align-items: flex-end;
-  
-}
 
 .sd-jumbotron .container .row img{
   width: 75%;
@@ -157,7 +135,6 @@
 }
 
 
-
 /* esplora ps-4 */
 .sd-esplora-ps-4 .container .row img{
   width: 100%;
@@ -199,11 +176,13 @@
   height: 100%;
 }
 
+
 /* sconti store */
 
 .sconti-store .container .row .col img{
   width: 100%;
 }
+
 
 /* playst-now */
 
@@ -231,16 +210,11 @@
 
 /* FOOTER */
 
-
 footer{
   background-color: #00439c;
   color: white;
 }
 
-footer .container .row .sd-logo-container img{
-  width: 110px;
-  color: white;
-}
 
 
 footer .container .row .sd-logo-container::after{
@@ -275,7 +249,6 @@ footer .container .row .sd-ul li a{
   color: white;
 }
 
-
 footer .container .row .sd-logosie-container img{
   width: 115px;
   margin-right: 10px;
@@ -288,6 +261,7 @@ footer .container .row .sd-logosie-container img{
 .footer-p a{
   color: white;
 }
+/* media-query */
 
 @media screen and (max-width: 768px) {
 

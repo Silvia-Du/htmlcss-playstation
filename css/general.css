@@ -11,10 +11,35 @@ body{
 }
 
 
+/* header */
 .sd-nav{
   position: fixed;
   top: 0;
   left: 0;
   z-index: 999;
   width: 100%;
+}
+
+.sd-nav .top{
+  height: 30px;
+  background-color: black;
+}
+
+.sd-nav .bottom{
+  height: 70px;
+  background-color: white;
+}
+
+/* jumbotron */
+
+.sd-jumbotron{
+  height: 90vh;
+  margin-top: 100px;
+  color: white;
+  background-image: url(../img/jumbo-bg.png);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  
 }
