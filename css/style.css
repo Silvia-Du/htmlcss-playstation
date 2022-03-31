@@ -170,15 +170,19 @@
   background-color: #bebcbb;
 }
 
-.sd-playst-plus .container .row .left .logo{
+.sd-playst-plus .container .row .sd-left{
+  padding-top: 2rem;
+}
+
+.sd-playst-plus .container .row .sd-left .logo{
   width: 60%;
 }
 
-.sd-playst-plus .container .row .left .logo img{
+.sd-playst-plus .container .row .sd-left .logo img{
   width: 100%;
 }
 
-.sd-playst-plus .container .row .right img{
+.sd-playst-plus .container .row .sd-right img{
   height: 100%;
 }
 
