@@ -80,6 +80,11 @@
   opacity: 0.8;
 }
 
+.sd-ps5 .container .row .sd-col-little a{
+  text-decoration: none;
+  color: black;
+}
+
 .sd-ps5 .container .row .sd-col-big img{
   width: 98%;
 }
