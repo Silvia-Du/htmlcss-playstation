@@ -1,12 +1,6 @@
 /* HEADER */
 
-.sd-nav .top .logo-sony{
-  width: 60px;
-  position: absolute;
-  right: 5px;
-}
-
-.sd-nav .top .logo-sony img{
+.sd-nav .top img{
   width: 60px;
   filter: invert(0);
 }
@@ -140,6 +134,7 @@
 
 .sd-nuove-uscite{
   background-color: #1f1f1f;
+  color: white;
 }
 
 .sd-nuove-uscite .container .row .col a{

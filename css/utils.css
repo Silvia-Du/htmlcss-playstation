@@ -68,10 +68,10 @@
 }
 
 .sd-btn-orange:hover{
-  background-color: #cd3d0f;
-  opacity: 0.9;
+  background-color: #d35125;
   border: 1px solid rgb(29, 28, 28);
-  outline:2px solid #cd3d0f;
+  outline:2px solid #d35125;
+  transition: 0.2s;
 }
 
 .sd-btn-blue:hover{
