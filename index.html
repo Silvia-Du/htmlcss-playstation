@@ -27,63 +27,42 @@
   <!-- HEADER -->
   <header>
     <!-- nav-top -->
-    <div class="sd-nav debug">
+    <div class="sd-nav">
       <div class="top d-flex justify-content-end">
         <img class="me-2" src="img/sony_logo.svg" alt="logo-sony">   
       </div>
       <!-- nav-bottom -->
       <div class="bottom">
-      <nav class="navbar navbar-expand-lg navbar-light ">
         <div class="container-fluid">
-          <!-- logo -->
-          <a class="navbar-brand" href="#"><img src="img/play_logo.svg" alt="" style="width: 50px;"></a>
-          <!-- toggler -->
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <!-- collaps bar -->
+          <div class="row ">
+            <div class="col-auto">
+              <img src="./img/play_logo.svg" alt="logo play">
+            </div>
+            <div class="col d-none d-lg-flex d-flex align-items-center justify-content-between">
+              <div class="_nav">
+                <!-- nav list -->
+                <ul class="d-flex mb-0 ps-2">
+                  <li><a href="#">Giochi</a></li>
+                  <li><a href="#">Hardware</a></li>
+                  <li><a href="#">Servizi</a></li>
+                  <li><a href="#">Novit&abreve;</a></li>
+                  <li><a href="#">Fai acquisti</a></li>
+                  <li><a href="#">Supporto</a></li>
+                </ul>
+              </div>
+              <div class="search-nav d-flex align-items-center ">
+                <ul class="mb-0 ps-0">
+                  <li><a href="#">My PlayStation</a></li>
+                </ul>
+                <button type="button" class="btn btn-secondary rounded-pill">Accedi</button>
+                <i class="fa-solid fa-magnifying-glass ms-4"></i>
+              </div>
+            </div>
+            <div class="col d-lg-none d-flex align-items-center justify-content-end">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+          </div>
         </div>
-      </nav>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-          
-          
-              
-         
-              
-          
-              <!-- nav-item giochi-->
-            
-
-              <!-- nav-item hardware-->
-            
-
-              <!-- nav-item servizi-->
-              
-
-              <!-- nav-item giochi-->
-         
-
-              <!-- nav-item shop-->
-        
-            <!-- form right -->
-         
 
       </div>
     </div>
@@ -118,7 +97,7 @@
         <div class="row row-cols-2 row-cols-sm-3 row-cols-xxl-6">
   
           <div class="col sd-col">
-            <img src="img/returnal-listing-thumb-01-ps5.jpg" alt="returnal">
+            <img src="img/returnal-listing-thumb-01-ps5.jpg" alt="returnal" class="active">
           </div>
   
           <div class="col sd-col">
@@ -358,7 +337,7 @@
   
      <div class="sd-playst-plus my-5">
       <div class="container">
-        <div class="row align-items-center py-2">
+        <div class="row align-items-center">
 
           <!-- text-col -->
           <div class="sd-left col-md-6 col-sm-12 pt-3">

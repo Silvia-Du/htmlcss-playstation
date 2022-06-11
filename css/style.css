@@ -6,11 +6,63 @@
 }
 
 
-
-
 /* dropdown */
 
 
+.sd-nav .bottom img{
+  width: 60px;
+}
+
+.sd-nav .bottom ul li{
+  list-style: none;
+  margin-right: 40px;
+  position: relative;
+}
+
+.sd-nav .bottom ul li a,
+.sd-nav .bottom p a{
+  color: #2a2a2a;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.sd-nav .bottom ul li a::after{
+  content: '\276E';
+  display: block;
+  color: #a9a9a9;
+  position: absolute;
+  top: 6px;
+  right: -16px;
+  font-size: 0.7rem;
+  transform: rotate(270deg);
+}
+
+.sd-nav .bottom ul li a:active::after{
+  transform: rotate(90deg);
+  color: #1a80d3;
+}
+
+.sd-nav .bottom ul li a:active{
+  color: #1a80d3;
+}
+
+.sd-nav .bottom button{
+  background-color: #363636;
+  border-color: #363636;
+  font-size: 0.9rem;
+}
+
+.sd-nav .bottom i{
+  font-size: 1.2rem;
+}
+
+.sd-nav .bottom i.fa-bars{
+  padding: 4px 12px;
+  border-radius: 5px;
+  color: #615c5c;
+  border: 1px solid rgb(180, 180, 180);
+}
 
 /* JUMBOTRON */
 
@@ -27,7 +79,9 @@
 .sd-game-card-xjumbo .container .sd-col img{
   width: 100%;
   border-radius: 15px;
+  transition: all 0.5s;
 }
+
 
 
 
@@ -109,6 +163,7 @@
   width: 100%;
   border-radius: 15px;
   margin-bottom: 10px;
+  transition: all .5s;
 }
 
 .sd-nuove-uscite .container .row .sd-col{
