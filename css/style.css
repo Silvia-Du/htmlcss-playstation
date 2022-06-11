@@ -6,7 +6,7 @@
 }
 
 
-/* dropdown */
+/* nav */
 
 
 .sd-nav .bottom img{
@@ -43,7 +43,9 @@
   color: #1a80d3;
 }
 
-.sd-nav .bottom ul li a:active{
+.sd-nav .bottom ul li a:active,
+.sd-nav .bottom ul li a:hover,
+.sd-nav .bottom p a:hover{
   color: #1a80d3;
 }
 
