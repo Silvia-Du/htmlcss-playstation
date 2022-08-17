@@ -41,13 +41,69 @@
             <div class="col d-none d-lg-flex d-flex align-items-center justify-content-between">
               <div class="_nav">
                 <!-- nav list -->
-                <ul class="d-flex mb-0 ps-2">
-                  <li><a href="#">Giochi</a></li>
-                  <li><a href="#">Hardware</a></li>
-                  <li><a href="#">Servizi</a></li>
-                  <li><a href="#">Novit&abreve;</a></li>
-                  <li><a href="#">Fai acquisti</a></li>
-                  <li><a href="#">Supporto</a></li>
+                <ul class=" d-flex mb-0 ps-2">
+                  <!-- giochi -->
+                  <li class="nav-item dropdown">
+                    <a class="first" href="#" data-bs-toggle="dropdown" role="button">Giochi</a>
+
+                    <div class="dropdown-menu pt-3 pb-4">
+                      <div class="dd-container d-flex">
+                        <!-- dd torretta  -->
+                        <div class="dd-box d-flex">
+                          <img src="./img/torretta.png" alt="torretta">
+                          <p>PS5</p>
+                        </div>
+                        <!-- dd scatoletta  -->
+                        <div class="dd-box d-flex">
+                          <img src="./img/scatoletta2.png" alt="scatoletta">
+                          <p>PS4</p>
+                        </div>
+                        <!-- dd visore  -->
+                        <div class="dd-box d-flex">
+                          <img src="./img/visore.png" alt="visore">
+                          <p>PS VR</p>
+                        </div>
+                        <!-- dd tasti  -->
+                        <div class="dd-box d-flex">
+                          <img src="./img/pulsanti.png" alt="tasti">
+                          <p>PS plus</p>
+                        </div>
+                        <!-- dd borsetta  -->
+                        <div class="dd-box d-flex">
+                          <img src="./img/borsetta.png" alt="borsetta">
+                          <p>Compra</p>
+                        </div>
+                      </div>
+                      <div class="dd-divider my-4"></div>
+                      <div class="dd-bottom-menu container">
+                        <ul class="d-flex justify-content-center">
+                          <li><a href="#">Indie</a></li>
+                          <li><a href="#">Titoli per PS4 su PS5</a></li>
+                          <li><a href="#">Free to Play</a></li>
+                          <li><a href="#">PlayStation su PC</a></li>
+                          <li><a href="#">Promozioni e offerte</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- Hardware -->
+                  <li><a class="first" href="#">Hardware</a></li>
+                  <li><a class="first" href="#">Servizi</a></li>
+                  <li><a class="first" href="#">Novit&abreve;</a></li>
+                  <li><a class="first" href="#">Fai acquisti</a></li>
+                  <li><a class="first" href="#">Supporto</a></li>
+                  <!-- da qui -->
+                  <li class="nav-item dropdown">
+                    <a data-bs-toggle="dropdown" href="#">Dropdown</a>
+                    <ul class="dropdown-menu">
+                      <li><a  href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Separated link</a></li>
+                    </ul>
+                  </li>
+                  <!-- fino a qui -->
                 </ul>
               </div>
               <div class="search-nav d-flex align-items-center ">
