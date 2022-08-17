@@ -61,14 +61,62 @@
 
 /* HOVER & ACTIVE RULES */
 
+/* NAV */
+
+.sd-nav .bottom ul li a.first::after{
+  content: '\276E';
+  display: block;
+  color: #a9a9a9;
+  position: absolute;
+  top: 6px;
+  right: -16px;
+  font-size: 0.7rem;
+  transform: rotate(270deg);
+  transition: all .2s;
+}
+
+.sd-nav .bottom ul li a.first[aria-expanded="true"]::after{
+  transform: rotate(90deg);
+  color: #1a80d3;
+}
+
+.sd-nav .bottom ul li a[aria-expanded="true"],
+.sd-nav .bottom ul li a:hover,
+.sd-nav .bottom p a:hover{
+  color: #1a80d3;
+}
+
+
+.dropdown-menu .dd-box:hover{
+  box-shadow: 1px 1px 10px 1px rgb(189, 186, 186);
+}
+
+.dropdown-menu .dd-bottom-menu ul li a::before{
+  content: ' ';
+  display: block;
+  background-color: #1a80d3;
+  height: 7px;
+  width: 7px;
+  border-radius: 50%;
+  position: absolute;
+  left: -14px;
+  top: 8px;
+}
+
+
+/* /NAV */
+
 .sd-btn-gray:hover{
   color: #5b87ec;
   background-color: #d9dadc;
   border-color: #d5d6d8;
 }
 
-.sd-btn-orange:hover{
+.sd-btn-orange:hover,
+.sd-btn-orange:active,
+.sd-btn-orange:focus{
   background-color: #d35125;
+  box-shadow: #dd7a59;
   border: 1px solid rgb(29, 28, 28);
   outline:2px solid #d35125;
   transition: 0.2s;

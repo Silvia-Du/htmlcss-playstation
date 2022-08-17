@@ -26,28 +26,6 @@
   font-weight: bold;
 }
 
-.sd-nav .bottom ul li a.first::after{
-  content: '\276E';
-  display: block;
-  color: #a9a9a9;
-  position: absolute;
-  top: 6px;
-  right: -16px;
-  font-size: 0.7rem;
-  transform: rotate(270deg);
-  transition: all .2s;
-}
-
-.sd-nav .bottom ul li a.first[aria-expanded="true"]::after{
-  transform: rotate(90deg);
-  color: #1a80d3;
-}
-
-.sd-nav .bottom ul li a[aria-expanded="true"],
-.sd-nav .bottom ul li a:hover,
-.sd-nav .bottom p a:hover{
-  color: #1a80d3;
-}
 
 .sd-nav .bottom button{
   background-color: #363636;
@@ -70,6 +48,7 @@
   width: 100vw;
   background-color: white;
   transform: translate(-120px, 41px)!important;
+  position: absolute;
   border-radius: 0;
 }
 
@@ -101,25 +80,10 @@
   background-color: rgb(189, 186, 186);
 }
 
-.dropdown-menu .dd-box:hover{
-  box-shadow: 1px 1px 10px 1px rgb(189, 186, 186);
-}
 
 .dropdown-menu .dd-bottom-menu ul li{
   position: relative;
   margin: 0 30px;
-}
-
-.dropdown-menu .dd-bottom-menu ul li a::before{
-  content: ' ';
-  display: block;
-  background-color: #1a80d3;
-  height: 7px;
-  width: 7px;
-  border-radius: 50%;
-  position: absolute;
-  left: -14px;
-  top: 8px;
 }
 
 
@@ -244,13 +208,13 @@
   display: inline-block;
 }
 
-.sd-esplora-ps-4 .container .sd-h2::after{
+.sd-esplora-ps-4 .container .sd-h2.first::after{
   content: '\000AE';
   color: #232323;
   font-size: 1.15rem;
   position: absolute;
   bottom:12px;
-  right: 20px;
+  right: -14px;
 }
 
 
